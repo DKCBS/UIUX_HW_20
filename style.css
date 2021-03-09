@@ -116,15 +116,40 @@ width: 100%;
     align-items: center;
 }
 /*Prototyping & Testing Text*/
+.boxes{
+    width: 50%;
+}
 .square1{
-    width: 320px;
+    width: 50%;
     height: 299px;
     background-color:#1E1E1E;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 .square2{
-    width: 320px;
+    width: 50%;
     height: 299px;
     background-color:#F0CF24;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.square12{
+    width: 50%;
+    height: 299px;
+    background-color:#ffffff;
+    float: left;
+}
+.wecon{
+    margin-top: 20px;
 }
 .H2text1{
     font-size: 30px;
